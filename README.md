@@ -26,14 +26,14 @@ A React-based questionnaire application that allows users to create, edit, reord
 Before you begin, ensure you have installed:
 - [Node.js](https://nodejs.org/) (v14 or higher)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
-- Backend server (questionnaire-api) running on port 3000
+- Backend server (questionnaire_app-api) running on port 3000
 
 ## 🔧 Installation
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/ckapsalis2710/questionnaire.git
-cd questionnaire
+git clone https://github.com/ckapsalis2710/questionnaire_app.git
+cd questionnaire_app
 ```
 
 ### 2. Install dependencies
@@ -80,7 +80,7 @@ The application will open at `http://localhost:3001`
 ## 📁 Project Structure
 
 ```
-questionnaire/
+questionnaire_app/
 ├── public/
 │   └── index.html
 ├── src/
