@@ -1,0 +1,33 @@
+.questionnaire-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.add-question-button {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 2rem auto 0;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #4a90e2, #3570b2);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.add-question-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(74, 144, 226, 0.3);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .add-question-button {
+    max-width: 100%;
+    padding: 0.875rem;
+  }
+}
